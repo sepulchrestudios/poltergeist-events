@@ -1,0 +1,38 @@
+{
+  "name": "poltergeist-events",
+  "version": "1.0.0",
+  "description": "Poltergeist is a CRM that enables mix engineers, studios, and clients to collaborate throughout the project and revision process seamlessly. This is the event stream / real-time communication portion of it.",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sepulchrestudios/poltergeist-events.git"
+  },
+  "keywords": [
+    "nodejs",
+    "javascript",
+    "redis",
+    "events",
+    "typescript",
+    "backend",
+    "socket-io",
+    "broadcasting",
+    "poltergeist"
+  ],
+  "author": "Matthew Fritz <hello@matthewfritz.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sepulchrestudios/poltergeist-events/issues"
+  },
+  "homepage": "https://github.com/sepulchrestudios/poltergeist-events#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "@redis/client": "^5.6.1",
+    "express": "^4.21.2",
+    "socket.io": "^4.8.1"
+  }
+}
