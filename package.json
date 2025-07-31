@@ -19,7 +19,8 @@
     "backend",
     "socket-io",
     "broadcasting",
-    "poltergeist"
+    "poltergeist",
+    "crm"
   ],
   "author": "Matthew Fritz <hello@matthewfritz.net>",
   "license": "MIT",
